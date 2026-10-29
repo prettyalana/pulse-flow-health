@@ -1,0 +1,15 @@
+HubSpot_Deal_ID,Fiscal_Period,Company_Name,Product,Deal_Stage,Stage_Probability,Amount,Billing_Frequency,Expected_Close_Date,AE_Owner
+HS-9001,Q4-2026,Aethelgard Post-Acute Care,CareBridge,Contract Sent,0.80,15000,Monthly,2026-11-15,Dax Shepherdson
+HS-9002,Q4-2026,Solaris Transitions Network,CareBridge,Contract Sent,0.80,20000,Monthly,2026-11-20,Dax Shepherdson
+HS-9002,Q4-2026,Solaris Transitions Network,CareBridge,Contract Sent,0.80,20000,Monthly,2026-11-20,Dax Shepherdson
+HS-9003,Q4-2026,Ironwood Post-Acute Network,CareBridge,Decision Maker Bought-In,0.60,12500,Monthly,2026-12-05,Nora Valkyrie
+HS-9004,Q4-2026,Zephyr Valley Senior Care,CareBridge,Decision Maker Bought-In,0.60,10000,Monthly,2026-10-08,Nora Valkyrie
+HS-9005,Q4-2026,Vanguard Rehab Centers,CareBridge,Qualified to Buy,0.40,8000,Monthly,2026-12-12,Rowan Sterling
+HS-9006,Q4-2026,Borealis Care Transitions,CareBridge,Contract Sent,0.80,210000,Annual,2026-11-28,Dax Shepherdson
+HS-9007,Q4-2026,Starlight Skilled Nursing,CareBridge,Decision Maker Bought-In,0.60,160000,Annual,2026-12-10,Nora Valkyrie
+HS-9008,Q4-2026,Halcyon Senior Living,CareBridge,Qualified to Buy,0.40,140000,Annual,2026-12-18,Rowan Sterling
+HS-9009,Q4-2026,Hyperion Transitions Group,CareBridge,Decision Maker Bought-In,0.60,190000,Annual,2026-12-02,Dax Shepherdson
+HS-9010,Q4-2026,Obsidian Post-Acute Alliance,CareBridge,Introduction,0.20,110000,Annual,2026-12-22,Rowan Sterling
+HS-9011,Q1-2027,Valkyrie Senior Care,CareBridge,Qualified to Buy,0.40,15000,Monthly,2027-01-15,Nora Valkyrie
+HS-9012,Q1-2027,Solstice Post-Acute,CareBridge,Introduction,0.20,130000,Annual,2027-02-01,Rowan Sterling
+HS-9013,Q4-2026,Celestial Skilled Nursing,CareBridge,Closed Lost,0.30,12000,Monthly,2026-10-11,Dax Shepherdson

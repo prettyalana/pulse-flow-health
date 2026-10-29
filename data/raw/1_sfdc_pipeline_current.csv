@@ -1,0 +1,37 @@
+Opportunity_ID,Fiscal_Period,Health_System,Product,Stage,Stage_Probability,Amount,Billing_Frequency,Close_Date,Created_Date,Days_In_Stage,Sales_Rep,Region
+006PF000001L020YAC,Q4-2026,Borealis Health Alliance - North Surgery Clinic,PulseOR,Contract Negotiations,0.80,300000,Annual,2026-11-24,2026-02-19,10,Kira Nerys,West
+006PF000001L001YAC,Q4-2026,Hyperion Health System,PulseOR,Contract Negotiations,0.80,450000,Annual,2026-10-05,2026-03-01,42,Arthur Pendelton,Northeast
+006PF000001L002YAC,Q4-2026,Obsidian Health Network,InfusionIQ,Business Approval,0.60,300000,Annual,2026-10-10,2026-04-12,29,Selene Novak,Midwest
+006PF000001L003YAC,Q4-2026,Valkyrie Regional Medical,BedFlow,Technical Validation,0.40,500000,Annual,2026-10-12,2026-05-01,33,Victor Vonnegut,Southeast
+006PF000001L004YAC,Q4-2026,Solstice Surgical Partners,PulseOR,Technical Validation,0.40,350000,Annual,2026-12-05,2026-10-11,4,Victor Vonnegut,Southeast
+006PF000001L005YAC,Q4-2026,Celestial Cancer Institute,InfusionIQ,Introduction,0.20,250000,Annual,2026-12-15,2026-10-12,3,Kira Nerys,Northeast
+006PF000001L006YAC,Q4-2026,Verdant Valley Hospital,BedFlow,Introduction,0.20,400000,Annual,2026-12-20,2026-10-13,2,Clara Oswald,West
+006PF000001L007YAC,Q4-2026,Nebula Health Alliance,PulseOR,Business Approval,0.60,600000,Annual,2026-11-28,2026-10-10,5,Arthur Pendelton,Northeast
+006PF000001L008YAC,Q4-2026,Caledonia General Health,PulseOR,Business Approval,0.60,400000,Annual,2026-11-18,2026-03-22,19,Arthur Pendelton,Northeast
+006PF000001L008YAC,Q4-2026,Caledonia General Health,PulseOR,Contract Negotiations,0.80,550000,Annual,2026-11-18,2026-03-22,2,Arthur Pendelton,Northeast
+006PF000001L009YAC,Q4-2026,Alabaster Medical Center,InfusionIQ,Business Approval,0.60,350000,Annual,2026-12-01,2026-04-19,15,Clara Oswald,West
+006PF000001L010YAC,Q4-2026,Mirage State Health System,BedFlow,Technical Validation,0.40,450000,Annual,2026-12-12,2026-05-08,21,Victor Vonnegut,Southeast
+006PF000001L011YAC,Q4-2026,Polaris Community Hospitals,PulseOR,Contract Negotiations,0.80,500000,Annual,2026-11-22,2026-02-11,16,Julian Bashir,Midwest
+006PF000001L012YAC,Q4-2026,Windward Oncology Group,InfusionIQ,Business Approval,0.60,200000,Annual,2026-12-08,2026-06-01,19,Selene Novak,Midwest
+006PF000001L013YAC,Q4-2026,Kestrel Regional Health,BedFlow,Business Approval,0.60,500000,Annual,2026-11-29,2026-04-02,25,Victor Vonnegut,Southeast
+006PF000001L014YAC,Q4-2026,Cascadia Crest Medical,PulseOR,Contract Negotiations,0.80,400000,Annual,2026-11-15,2026-03-15,14,Clara Oswald,West
+006PF000001L014YAC,Q4-2026,Cascadia Crest Medical,PulseOR,Contract Negotiations,0.80,400000,Annual,2026-11-15,2026-03-15,14,Clara Oswald,West
+006PF000001L015YAC,Q4-2026,Palisades Surgical Network,PulseOR,Technical Validation,0.40,300000,Annual,2026-12-14,2026-06-10,20,Kira Nerys,Northeast
+006PF000001L016YAC,Q4-2026,Briarwood Health Partners,InfusionIQ,Contract Negotiations,0.80,250000,Annual,2026-11-19,2026-03-28,11,Selene Novak,Midwest
+006PF000001L017YAC,Q4-2026,Redstone Desert Health System,BedFlow,Business Approval,0.60,450000,Annual,2026-12-04,2026-04-25,17,Clara Oswald,West
+006PF000001L018YAC,Q4-2026,Silverlake Medical Center,PulseOR,Technical Validation,0.40,350000,Annual,2026-12-19,2026-05-19,23,Julian Bashir,Midwest
+006PF000001L019YAC,Q4-2026,Tidewater Regional Oncology,InfusionIQ,Introduction,0.20,200000,Annual,2026-12-21,2026-07-14,28,Kira Nerys,Northeast
+006PF000001T001YAC,Q4-2026,Aethelgard Health System (AKA Aethelgard Regional Medical),PulseOR,Contract Negotiations,0.80,2400000,Annual,2026-11-30,2026-02-14,18,Arthur Pendelton,Northeast
+006PF000001T002YAC,Q4-2026,Solaris Medical System (FKA Solaris Health Group),BedFlow,Contract Negotiations,0.80,3000000,Annual,2026-12-15,2026-01-20,24,Clara Oswald,West
+006PF000001T003YAC,Q4-2026,Vanguard Meridian Health Network,PulseOR,Business Approval,0.60,1800000,Annual,2026-12-18,2026-03-10,31,Julian Bashir,Midwest
+006PF000001T004YAC,Q4-2026,Zephyr Valley System (AKA Zephyr Regional Medical Group),InfusionIQ,Business Approval,0.60,1500000,Annual,2026-11-25,2026-04-05,14,Selene Novak,Midwest
+006PF000001T005YAC,Q4-2026,Ironwood Clinical Center & Health System,BedFlow,Contract Negotiations,0.80,2200000,Annual,2026-12-22,2026-02-28,19,Victor Vonnegut,Southeast
+006PF000001T006YAC,Q4-2026,Borealis Health Alliance - Main Campus,PulseOR,Technical Validation,0.40,1600000,Annual,2026-12-10,2026-05-12,27,Clara Oswald,West
+006PF000001T007YAC,Q4-2026,Starlight Oncology & Cancer Network,InfusionIQ,Business Approval,0.60,1200000,Annual,2026-11-20,2026-04-18,22,Kira Nerys,Northeast
+006PF000001T008YAC,Q4-2026,Halcyon Medical Group (FKA Halcyon Health),BedFlow,Introduction,0.20,2000000,Annual,2026-12-28,2026-07-01,35,Julian Bashir,Midwest
+006PF000001M001YAC,Q4-2026,Aethelgard Post-Acute Care,CareBridge,Contract Negotiations,0.80,180000,Annual,2026-11-15,2026-10-01,14,Dax Shepherdson,Northeast
+006PF000001X001YAC,Q1-2027,Fjordland Peninsula Health,PulseOR,Technical Validation,0.40,600000,Annual,2027-01-25,2026-05-10,38,Clara Oswald,West
+006PF000001X002YAC,Q1-2027,Timberline Valley Medical,BedFlow,Business Approval,0.60,750000,Annual,2027-02-10,2026-04-01,45,Victor Vonnegut,Southeast
+006PF000001X003YAC,Q1-2027,Greystone Health Cooperative,InfusionIQ,Introduction,0.20,250000,Annual,2027-01-18,2026-06-20,30,Kira Nerys,Northeast
+006PF000001X004YAC,Q4-2026,Sycamore River Hospital,PulseOR,Closed Lost,0.00,500000,Annual,2026-10-14,2026-03-05,50,Julian Bashir,Midwest
+006PF000001X005YAC,Q4-2026,Coral Reef Medical Group,BedFlow,Closed Lost,0.40,650000,Annual,2026-10-13,2026-03-18,41,Victor Vonnegut,Southeast

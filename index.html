@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PulseFlow Q4 Forecast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div>
+        <p class="eyebrow">PulseFlow Health · Executive Forecast</p>
+        <h1>Q4-2026 New Annual Sales</h1>
+      </div>
+      <p class="as-of" id="as-of"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="banner" aria-labelledby="hero-label">
+      <div class="hero">
+        <p class="label" id="hero-label">Total expected Q4 sales</p>
+        <p class="hero-number" id="kpi-total">-</p>
+        <p class="verdict" id="kpi-verdict"></p>
+        <p class="delta-chip" id="kpi-delta" hidden></p>
+      </div>
+
+      <div class="path" aria-label="Expected sales against the board target">
+        <div class="path-track" id="path-track">
+          <div class="path-target" id="path-target"><span>$12.0M target</span></div>
+        </div>
+        <div class="tooltip" id="path-tooltip" role="status" hidden></div>
+      </div>
+
+      <div class="tiles">
+        <div class="tile"><span class="swatch s1"></span><p class="label">Top 8 strategic deals</p><p class="tile-number" id="kpi-top8">-</p></div>
+        <div class="tile"><span class="swatch s2"></span><p class="label">Longtail · Core Salesforce</p><p class="tile-number" id="kpi-core">-</p></div>
+        <div class="tile"><span class="swatch s3"></span><p class="label">Longtail · Acquired CareBridge</p><p class="tile-number" id="kpi-carebridge">-</p></div>
+        <div class="tile"><p class="label">Variance vs $12.0M target</p><p class="tile-number" id="kpi-variance">-</p></div>
+      </div>
+    </section>
+
+    <section class="calls" aria-labelledby="calls-title">
+      <div class="calls-head">
+        <h2 id="calls-title">Judgment calls in this number</h2>
+        <button class="btn" id="reset">Reset to baseline</button>
+      </div>
+      <div class="call-list" id="call-list"></div>
+    </section>
+
+    <nav class="tabs" role="tablist">
+      <button role="tab" class="tab" aria-selected="true" data-tab="deal-room">Deal Room</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="changes">What Changed <span class="sub">week over week</span></button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="checks">Data Checks <span class="count" id="checks-count"></span></button>
+    </nav>
+
+    <section class="panel" id="deal-room" role="tabpanel">
+      <div class="filters">
+        <label>Product
+          <select id="filter-product"><option value="All">All products</option></select>
+        </label>
+        <label>Sales rep
+          <select id="filter-rep"><option value="All">All reps</option></select>
+        </label>
+        <p class="filter-note" id="filter-note"></p>
+      </div>
+
+      <h3>Top 8 strategic deals <span class="sub">scored by Sales VPs · adjust scores to see the impact</span></h3>
+      <div class="table-wrap">
+        <table class="deals">
+          <thead><tr>
+            <th>Deal</th><th>Product</th><th>Rep</th><th class="num">Annual value</th>
+            <th class="num" title="Leadership alignment, 20%">Leadership</th>
+            <th class="num" title="Commercial alignment, 20%">Commercial</th>
+            <th class="num" title="Contractual alignment, 60%">Contractual</th>
+            <th class="num">Score</th><th class="num">Chance to close</th><th class="num">Expected value</th><th></th>
+          </tr></thead>
+          <tbody id="top8-body"></tbody>
+        </table>
+      </div>
+
+      <h3>Longtail <span class="sub">every other active Q4 deal · uses the stage probability</span></h3>
+      <div class="table-wrap">
+        <table class="deals">
+          <thead><tr>
+            <th>Deal</th><th>Product</th><th>Rep</th><th>Stage</th><th class="num">Annual value</th>
+            <th class="num">Chance to close</th><th class="num">Expected value</th><th></th>
+          </tr></thead>
+          <tbody id="longtail-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" id="changes" role="tabpanel" hidden>
+      <p class="panel-intro">Salesforce pipeline, this week vs. last Monday's export.</p>
+      <div class="move-tiles" id="move-tiles"></div>
+      <div id="move-tables"></div>
+    </section>
+
+    <section class="panel" id="checks" role="tabpanel" hidden>
+      <p class="panel-intro">Every issue the pipeline found in the 4 raw exports, and how it was handled. Nothing was edited by hand.</p>
+      <div class="filters" id="check-filters"></div>
+      <div class="table-wrap">
+        <table class="audit">
+          <thead><tr><th>Step</th><th>Source</th><th>Record</th><th>What we found</th><th>What we did</th><th>Impact</th></tr></thead>
+          <tbody id="audit-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">Expected value = annual contract value × chance to close. Top 8 chance comes from the VP score (20% leadership, 20% commercial, 60% contractual); everything else uses the stage probability.</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
